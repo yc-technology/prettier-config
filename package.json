@@ -1,0 +1,19 @@
+{
+  "name": "@yc-tech/prettier-config",
+  "private": false,
+  "version": "0.1.0",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "author": "Django <six.django@gmail.com>",
+  "packageManager": "pnpm@8.15.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yc-technology/prettier-config"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}

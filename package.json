@@ -13,7 +13,10 @@
     "type": "git",
     "url": "https://github.com/yc-technology/prettier-config"
   },
+  "scripts": {
+    "github:ci": "npm version patch -m 'chore(release): bump version to %s' && git push && git push --tags"
+  },
   "devDependencies": {
-    "prettier": "^3.2.5"
+    "prettier": "^3.3.3"
   }
 }
